@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "datatable",
+        "podms",
+        "sname",
+        "tickmark",
+        "unmae"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "db_test",
+            "username": "root",
+            "database": "db_test",
+            "password": ""
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin : 0;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 375px) {
+.h-custom {
+height: 100%;
+}
+}
+.box{
+    background-color: #38a6dd;
+    margin: 1in;
+    border: 2in;
+    padding: 50px;
+    border-radius: 20px;
+  }
+
+.btn{
+    width:100%;
+}
+.navbar{
+    font-size: 30px;
+}
+.navbar-brand img{
+    width: 55px;
+}
+.col-md-9 img{
+    padding: 20px;
+    margin-left: 4rem;
+    margin-bottom: -5rem;
+}
+
+@media only screen and (min-width: 375px){
+    .col-md-9 img{        
+        padding: 63px;
+        margin-left: 0rem;
+        margin-bottom: -4rem;
+        margin-top: 0rem;
+    }    
+}
+@media only screen and (min-width: 375px){
+    .navbar {
+        float: center;
+        display: flex;
+    }   
+}
